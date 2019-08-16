@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b172a84-c7fe-4118-94b3-1ec7c4357c8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/symcoder/SymCoder2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symcoder/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symcoder/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/symcoder/index.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symcoder/SymCoder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/symcoder/SymCoder2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="306" column="66" selection-start-line="306" selection-start-column="66" selection-end-line="306" selection-end-column="66" />
+              <folding>
+                <element signature="e#92#1892#0#PHP" />
+                <element signature="e#1984#2254#0#PHP" />
+                <element signature="e#2261#2321#0#PHP" />
+                <element signature="e#2753#2887#0#PHP" />
+                <element signature="n#create_tab_coded#0;n#SymCoder2#0;n#!!top" />
+                <element signature="e#3245#3615#0#PHP" />
+                <element signature="e#3295#3386#0#PHP" />
+                <element signature="e#3458#3605#0#PHP" />
+                <element signature="e#3638#3740#0#PHP" />
+                <element signature="e#3765#4231#0#PHP" />
+                <element signature="e#3845#4203#0#PHP" />
+                <element signature="e#3965#4189#0#PHP" />
+                <element signature="e#4008#4171#0#PHP" />
+                <element signature="e#4257#4357#0#PHP" />
+                <element signature="e#4618#6607#0#PHP" />
+                <element signature="e#4694#5592#0#PHP" />
+                <element signature="e#4747#5578#0#PHP" />
+                <element signature="e#5057#5560#0#PHP" />
+                <element signature="e#5605#6597#0#PHP" />
+                <element signature="e#5640#6583#0#PHP" />
+                <element signature="e#5722#6565#0#PHP" />
+                <element signature="e#6052#6543#0#PHP" />
+                <element signature="e#6648#6735#0#PHP" />
+                <element signature="n#mb_str_split#0;n#SymCoder2#0;n#!!top" />
+                <element signature="e#6813#7167#0#PHP" />
+                <element signature="e#6891#7103#0#PHP" />
+                <element signature="e#7114#7167#0#PHP" />
+                <element signature="e#7202#7283#0#PHP" />
+                <element signature="n#generate_noise#0;n#SymCoder2#0;n#!!top" />
+                <element signature="e#7558#8088#0#PHP" />
+                <element signature="e#7689#8078#0#PHP" />
+                <element signature="e#7911#8064#0#PHP" />
+                <element signature="n#message_digest#0;n#SymCoder2#0;n#!!top" />
+                <element signature="e#8238#8294#0#PHP" />
+                <element signature="e#10137#10223#0#PHP" />
+                <element signature="e#10702#10962#0#PHP" />
+                <element signature="e#10816#10952#0#PHP" />
+                <element signature="e#11077#11313#0#PHP" />
+                <element signature="e#11131#11303#0#PHP" />
+                <element signature="n#XOR_crypt#0;n#SymCoder2#0;n#!!top" />
+                <element signature="e#11497#11621#0#PHP" />
+                <element signature="n#generateRandomString#0;n#SymCoder2#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symcoder/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" selection-start-line="43" selection-end-line="48" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symcoder/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2339">
+              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/symcoder" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/symcoder/functions.php" />
+        <option value="$PROJECT_DIR$/symcoder/index.php" />
+        <option value="$PROJECT_DIR$/symcoder/SymCoder2.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="850" />
+    <option name="y" value="72" />
+    <option name="width" value="1400" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="symcoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symcoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="symcoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="symcoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/symcoder" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\server\htdocs\symcoder\symcoder" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b172a84-c7fe-4118-94b3-1ec7c4357c8b" name="Default Changelist" comment="" />
+      <created>1565952859454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565952859454</updated>
+      <workItem from="1565952860546" duration="1687000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1687000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.8569881" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/symcoder/SymCoder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symcoder/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" selection-start-line="43" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symcoder/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2339">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/symcoder/SymCoder2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="306" column="66" selection-start-line="306" selection-start-column="66" selection-end-line="306" selection-end-column="66" />
+          <folding>
+            <element signature="e#92#1892#0#PHP" />
+            <element signature="e#1984#2254#0#PHP" />
+            <element signature="e#2261#2321#0#PHP" />
+            <element signature="e#2753#2887#0#PHP" />
+            <element signature="n#create_tab_coded#0;n#SymCoder2#0;n#!!top" />
+            <element signature="e#3245#3615#0#PHP" />
+            <element signature="e#3295#3386#0#PHP" />
+            <element signature="e#3458#3605#0#PHP" />
+            <element signature="e#3638#3740#0#PHP" />
+            <element signature="e#3765#4231#0#PHP" />
+            <element signature="e#3845#4203#0#PHP" />
+            <element signature="e#3965#4189#0#PHP" />
+            <element signature="e#4008#4171#0#PHP" />
+            <element signature="e#4257#4357#0#PHP" />
+            <element signature="e#4618#6607#0#PHP" />
+            <element signature="e#4694#5592#0#PHP" />
+            <element signature="e#4747#5578#0#PHP" />
+            <element signature="e#5057#5560#0#PHP" />
+            <element signature="e#5605#6597#0#PHP" />
+            <element signature="e#5640#6583#0#PHP" />
+            <element signature="e#5722#6565#0#PHP" />
+            <element signature="e#6052#6543#0#PHP" />
+            <element signature="e#6648#6735#0#PHP" />
+            <element signature="n#mb_str_split#0;n#SymCoder2#0;n#!!top" />
+            <element signature="e#6813#7167#0#PHP" />
+            <element signature="e#6891#7103#0#PHP" />
+            <element signature="e#7114#7167#0#PHP" />
+            <element signature="e#7202#7283#0#PHP" />
+            <element signature="n#generate_noise#0;n#SymCoder2#0;n#!!top" />
+            <element signature="e#7558#8088#0#PHP" />
+            <element signature="e#7689#8078#0#PHP" />
+            <element signature="e#7911#8064#0#PHP" />
+            <element signature="n#message_digest#0;n#SymCoder2#0;n#!!top" />
+            <element signature="e#8238#8294#0#PHP" />
+            <element signature="e#10137#10223#0#PHP" />
+            <element signature="e#10702#10962#0#PHP" />
+            <element signature="e#10816#10952#0#PHP" />
+            <element signature="e#11077#11313#0#PHP" />
+            <element signature="e#11131#11303#0#PHP" />
+            <element signature="n#XOR_crypt#0;n#SymCoder2#0;n#!!top" />
+            <element signature="e#11497#11621#0#PHP" />
+            <element signature="n#generateRandomString#0;n#SymCoder2#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
