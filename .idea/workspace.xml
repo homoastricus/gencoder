@@ -132,11 +132,6 @@
               <item name="symcoder" type="b2602c69:ProjectViewProjectNode" />
               <item name="symcoder" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="symcoder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="symcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="symcoder" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -145,6 +140,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/symcoder" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -178,12 +174,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565952859454</updated>
-      <workItem from="1565952860546" duration="1687000" />
+      <workItem from="1565952860546" duration="2213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1687000" />
+    <option name="totallyTimeSpent" value="2213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
