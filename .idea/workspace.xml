@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/GenCoder.php" line="105" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7b172a84-c7fe-4118-94b3-1ec7c4357c8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/symcoder/SymCoder2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symcoder/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symcoder/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/symcoder/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ava.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/binary-code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/coding.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/data-compression.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/encrypt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/file-sharing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/install.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/user1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/user2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/web-security.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/world-wide-web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SymCoder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SymCoder2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symcoder" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,91 +36,73 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/symcoder/SymCoder.php">
+        <entry file="file://$PROJECT_DIR$/GenCoder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="-323">
+              <caret line="23" column="37" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/symcoder/SymCoder2.php">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="306" column="66" selection-start-line="306" selection-start-column="66" selection-end-line="306" selection-end-column="66" />
-              <folding>
-                <element signature="e#92#1892#0#PHP" />
-                <element signature="e#1984#2254#0#PHP" />
-                <element signature="e#2261#2321#0#PHP" />
-                <element signature="e#2753#2887#0#PHP" />
-                <element signature="n#create_tab_coded#0;n#SymCoder2#0;n#!!top" />
-                <element signature="e#3245#3615#0#PHP" />
-                <element signature="e#3295#3386#0#PHP" />
-                <element signature="e#3458#3605#0#PHP" />
-                <element signature="e#3638#3740#0#PHP" />
-                <element signature="e#3765#4231#0#PHP" />
-                <element signature="e#3845#4203#0#PHP" />
-                <element signature="e#3965#4189#0#PHP" />
-                <element signature="e#4008#4171#0#PHP" />
-                <element signature="e#4257#4357#0#PHP" />
-                <element signature="e#4618#6607#0#PHP" />
-                <element signature="e#4694#5592#0#PHP" />
-                <element signature="e#4747#5578#0#PHP" />
-                <element signature="e#5057#5560#0#PHP" />
-                <element signature="e#5605#6597#0#PHP" />
-                <element signature="e#5640#6583#0#PHP" />
-                <element signature="e#5722#6565#0#PHP" />
-                <element signature="e#6052#6543#0#PHP" />
-                <element signature="e#6648#6735#0#PHP" />
-                <element signature="n#mb_str_split#0;n#SymCoder2#0;n#!!top" />
-                <element signature="e#6813#7167#0#PHP" />
-                <element signature="e#6891#7103#0#PHP" />
-                <element signature="e#7114#7167#0#PHP" />
-                <element signature="e#7202#7283#0#PHP" />
-                <element signature="n#generate_noise#0;n#SymCoder2#0;n#!!top" />
-                <element signature="e#7558#8088#0#PHP" />
-                <element signature="e#7689#8078#0#PHP" />
-                <element signature="e#7911#8064#0#PHP" />
-                <element signature="n#message_digest#0;n#SymCoder2#0;n#!!top" />
-                <element signature="e#8238#8294#0#PHP" />
-                <element signature="e#10137#10223#0#PHP" />
-                <element signature="e#10702#10962#0#PHP" />
-                <element signature="e#10816#10952#0#PHP" />
-                <element signature="e#11077#11313#0#PHP" />
-                <element signature="e#11131#11303#0#PHP" />
-                <element signature="n#XOR_crypt#0;n#SymCoder2#0;n#!!top" />
-                <element signature="e#11497#11621#0#PHP" />
-                <element signature="n#generateRandomString#0;n#SymCoder2#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="303">
+              <caret line="543" lean-forward="true" selection-start-line="543" selection-end-line="543" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/symcoder/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" selection-start-line="43" selection-end-line="48" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/symcoder/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2339">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/img/user2.svg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>__construct</find>
+      <find>echo</find>
+      <find>$pass1</find>
+      <find>gener</find>
+      <find>generateRandomNumbers</find>
+      <find>$x2</find>
+      <find>x2</find>
+      <find>x1</find>
+      <find>$min_coded_message_length</find>
+      <find>min_coded_message_length</find>
+      <find>random_bytes</find>
+      <find>microy</find>
+      <find>decodeMessage</find>
+      <find>Sym</find>
+      <find>code(</find>
+      <find>$user_code_1</find>
+      <find>zip</find>
+      <find>$generateKey</find>
+      <find>salt_length</find>
+      <find>sym</find>
+      <find>viewBox</find>
+      <find>hr</find>
+      <find>hr</find>
+      <find>content</find>
+      <find>.content</find>
+      <find>step_element_icon</find>
+      <find>step_element_icon_mini</find>
+      <find>flex_item</find>
+      <find>log</find>
+      <find>sh_php</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>&quot;&lt;BR&gt;&quot;</replace>
+      <replace>$generateKey</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/symcoder" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -110,6 +110,12 @@
         <option value="$PROJECT_DIR$/symcoder/functions.php" />
         <option value="$PROJECT_DIR$/symcoder/index.php" />
         <option value="$PROJECT_DIR$/symcoder/SymCoder2.php" />
+        <option value="$PROJECT_DIR$/SymCoder2.php" />
+        <option value="$PROJECT_DIR$/GenCoderOld.php" />
+        <option value="$PROJECT_DIR$/randombytes.php" />
+        <option value="$PROJECT_DIR$/gindex.php" />
+        <option value="$PROJECT_DIR$/GenCoder.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -132,6 +138,11 @@
               <item name="symcoder" type="b2602c69:ProjectViewProjectNode" />
               <item name="symcoder" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="symcoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="symcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -142,14 +153,19 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/symcoder" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\server\htdocs\symcoder\img" />
+      <recent name="C:\server\htdocs\symcoder" />
       <recent name="C:\server\htdocs\symcoder\symcoder" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\server\htdocs\symcoder" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,24 +190,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565952859454</updated>
-      <workItem from="1565952860546" duration="2213000" />
+      <workItem from="1565952860546" duration="3160000" />
+      <workItem from="1566224113378" duration="42338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2213000" />
+    <option name="totallyTimeSpent" value="45498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.8569881" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -199,85 +212,139 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18201517" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/symcoder/SymCoder.php">
+    <entry file="file://$PROJECT_DIR$/SymCoder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symcoder/functions.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
+        <state relative-caret-position="242">
+          <caret line="203" column="12" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mbstring/mbstring.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="1340" column="9" selection-start-line="1340" selection-start-column="9" selection-end-line="1340" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/csprng/CSPRNG.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="856" column="9" selection-start-line="856" selection-start-column="9" selection-end-line="856" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randombytes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2958">
+          <caret line="174" column="37" selection-start-line="174" selection-start-column="37" selection-end-line="174" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenCoderOld.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="157" selection-start-line="157" selection-end-line="166" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SymCoder2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="267" column="27" selection-start-line="267" selection-start-column="27" selection-end-line="267" selection-end-column="52" />
+          <folding>
+            <element signature="n#mb_str_split#0;n#SymCoder2#0;n#!!top" />
+            <element signature="n#generate_noise#0;n#SymCoder2#0;n#!!top" />
+            <element signature="n#message_digest#0;n#SymCoder2#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
           <caret line="43" selection-start-line="43" selection-end-line="48" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symcoder/index.php">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2339">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        <state relative-caret-position="242">
+          <caret line="18234" column="17" selection-start-line="18234" selection-start-column="17" selection-end-line="18234" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/symcoder/SymCoder2.php">
+    <entry file="file://$PROJECT_DIR$/img/install.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/web-security.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/coding.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/file-sharing.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/binary-code.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenCoder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="306" column="66" selection-start-line="306" selection-start-column="66" selection-end-line="306" selection-end-column="66" />
-          <folding>
-            <element signature="e#92#1892#0#PHP" />
-            <element signature="e#1984#2254#0#PHP" />
-            <element signature="e#2261#2321#0#PHP" />
-            <element signature="e#2753#2887#0#PHP" />
-            <element signature="n#create_tab_coded#0;n#SymCoder2#0;n#!!top" />
-            <element signature="e#3245#3615#0#PHP" />
-            <element signature="e#3295#3386#0#PHP" />
-            <element signature="e#3458#3605#0#PHP" />
-            <element signature="e#3638#3740#0#PHP" />
-            <element signature="e#3765#4231#0#PHP" />
-            <element signature="e#3845#4203#0#PHP" />
-            <element signature="e#3965#4189#0#PHP" />
-            <element signature="e#4008#4171#0#PHP" />
-            <element signature="e#4257#4357#0#PHP" />
-            <element signature="e#4618#6607#0#PHP" />
-            <element signature="e#4694#5592#0#PHP" />
-            <element signature="e#4747#5578#0#PHP" />
-            <element signature="e#5057#5560#0#PHP" />
-            <element signature="e#5605#6597#0#PHP" />
-            <element signature="e#5640#6583#0#PHP" />
-            <element signature="e#5722#6565#0#PHP" />
-            <element signature="e#6052#6543#0#PHP" />
-            <element signature="e#6648#6735#0#PHP" />
-            <element signature="n#mb_str_split#0;n#SymCoder2#0;n#!!top" />
-            <element signature="e#6813#7167#0#PHP" />
-            <element signature="e#6891#7103#0#PHP" />
-            <element signature="e#7114#7167#0#PHP" />
-            <element signature="e#7202#7283#0#PHP" />
-            <element signature="n#generate_noise#0;n#SymCoder2#0;n#!!top" />
-            <element signature="e#7558#8088#0#PHP" />
-            <element signature="e#7689#8078#0#PHP" />
-            <element signature="e#7911#8064#0#PHP" />
-            <element signature="n#message_digest#0;n#SymCoder2#0;n#!!top" />
-            <element signature="e#8238#8294#0#PHP" />
-            <element signature="e#10137#10223#0#PHP" />
-            <element signature="e#10702#10962#0#PHP" />
-            <element signature="e#10816#10952#0#PHP" />
-            <element signature="e#11077#11313#0#PHP" />
-            <element signature="e#11131#11303#0#PHP" />
-            <element signature="n#XOR_crypt#0;n#SymCoder2#0;n#!!top" />
-            <element signature="e#11497#11621#0#PHP" />
-            <element signature="n#generateRandomString#0;n#SymCoder2#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="-323">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/user2.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="543" lean-forward="true" selection-start-line="543" selection-end-line="543" />
         </state>
       </provider>
     </entry>
