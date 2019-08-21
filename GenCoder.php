@@ -217,7 +217,7 @@ Class GenCoder
         $key_length = mb_strlen($generateKey, "UTF-8");
         for ($i = 0; $i < count($message); $i++) {
             if($sign_key>=self::hash_length) $sign_key = 0;
-            $key_code_pos = hexdec($path_key_signature[$sign_key]);
+            $key_code_pos = hex2bin($path_key_signature[$sign_key]);
             $cur_key_pos = $cur_key_pos+$key_code_pos;
             if($cur_key_pos>=$key_length){
                 $cur_key_pos = $cur_key_pos - $key_length;

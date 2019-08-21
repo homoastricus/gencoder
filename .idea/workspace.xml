@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7b172a84-c7fe-4118-94b3-1ec7c4357c8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/GenCoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/GenCoder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,10 +23,43 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GenCoder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="111" column="7" lean-forward="true" selection-end-line="275" selection-end-column="1" />
+            <state relative-caret-position="133">
+              <caret line="203" column="5" lean-forward="true" selection-start-line="203" selection-start-column="5" selection-end-line="203" selection-end-column="5" />
               <folding>
-                <element signature="e#6#125#0#PHP" expanded="true" />
+                <element signature="e#485#501#0#PHP" />
+                <element signature="e#593#709#0#PHP" />
+                <element signature="n#__construct#0;n#GenCoder#0;n#!!top" />
+                <element signature="e#779#887#0#PHP" />
+                <element signature="e#896#994#0#PHP" />
+                <element signature="e#1072#1145#0#PHP" />
+                <element signature="n#user_hashcode#0;n#GenCoder#0;n#!!top" />
+                <element signature="e#799#853#0#PHP" />
+                <element signature="n#str_splitUTF8#0;n#GenCoder#0;n#!!top" />
+                <element signature="e#1221#1280#0#PHP" />
+                <element signature="n#sender_hashcode#0;n#GenCoder#0;n#!!top" />
+                <element signature="e#1420#1479#0#PHP" />
+                <element signature="n#receiver_hashcode#0;n#GenCoder#0;n#!!top" />
+                <element signature="e#1578#1636#0#PHP" />
+                <element signature="n#randomSalt#0;n#GenCoder#0;n#!!top" />
+                <element signature="e#2110#2186#0#PHP" />
+                <element signature="n#attachKey#0;n#GenCoder#0;n#!!top" />
+                <element signature="e#2314#2427#0#PHP" />
+                <element signature="n#pathKeySignature#0;n#GenCoder#0;n#!!top" />
+                <element signature="e#2144#2202#0#PHP" />
+                <element signature="e#2819#2880#0#PHP" />
+                <element signature="e#3101#4011#0#PHP" />
+                <element signature="e#3291#4011#0#PHP" />
+                <element signature="e#3478#4011#0#PHP" />
+                <element signature="e#3725#4011#0#PHP" />
+                <element signature="e#4583#4641#0#PHP" />
+                <element signature="e#4970#5112#0#PHP" />
+                <element signature="e#4350#4471#0#PHP" />
+                <element signature="e#6270#6407#0#PHP" />
+                <element signature="e#7359#7416#0#PHP" />
+                <element signature="e#7587#7695#0#PHP" />
+                <element signature="e#7735#7793#0#PHP" />
+                <element signature="n#createPass#0;n#GenCoder#0;n#!!top" />
+                <element signature="e#7513#7600#0#PHP" />
               </folding>
             </state>
           </provider>
@@ -51,7 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>x2</find>
       <find>x1</find>
       <find>$min_coded_message_length</find>
       <find>min_coded_message_length</find>
@@ -62,7 +93,6 @@
       <find>code(</find>
       <find>$user_code_1</find>
       <find>zip</find>
-      <find>$generateKey</find>
       <find>salt_length</find>
       <find>sym</find>
       <find>viewBox</find>
@@ -79,14 +109,16 @@
       <find>mb_chr</find>
       <find>mb_ord</find>
       <find>max_size</find>
-      <find>key_size</find>
       <find>sh_php</find>
+      <find>key_size</find>
+      <find>$generateKey</find>
+      <find>generateKey</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>&quot;&lt;BR&gt;&quot;</replace>
-      <replace>key_size</replace>
       <replace>$generateKey</replace>
+      <replace>key_size</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -102,8 +134,8 @@
         <option value="$PROJECT_DIR$/GenCoderOld.php" />
         <option value="$PROJECT_DIR$/randombytes.php" />
         <option value="$PROJECT_DIR$/gindex.php" />
-        <option value="$PROJECT_DIR$/GenCoder.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/GenCoder.php" />
       </list>
     </option>
   </component>
@@ -136,15 +168,15 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\server\htdocs\symcoder\img" />
       <recent name="C:\server\htdocs\symcoder" />
+      <recent name="C:\server\htdocs\symcoder\img" />
       <recent name="C:\server\htdocs\symcoder\symcoder" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -174,18 +206,18 @@
       <option name="presentableId" value="Default" />
       <updated>1565952859454</updated>
       <workItem from="1565952860546" duration="3160000" />
-      <workItem from="1566224113378" duration="47065000" />
+      <workItem from="1566224113378" duration="49051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50225000" />
+    <option name="totallyTimeSpent" value="52211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -198,7 +230,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18201517" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18201517" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -303,13 +335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mbstring/mbstring.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="1332" column="9" selection-start-line="1332" selection-start-column="9" selection-end-line="1332" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/csprng/CSPRNG.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -324,12 +349,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa56984.35152/GenCoder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3573">
+          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mbstring/mbstring.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="1328" column="26" lean-forward="true" selection-start-line="1328" selection-start-column="26" selection-end-line="1328" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GenCoder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="111" column="7" lean-forward="true" selection-end-line="275" selection-end-column="1" />
+        <state relative-caret-position="133">
+          <caret line="203" column="5" lean-forward="true" selection-start-line="203" selection-start-column="5" selection-end-line="203" selection-end-column="5" />
           <folding>
-            <element signature="e#6#125#0#PHP" expanded="true" />
+            <element signature="e#485#501#0#PHP" />
+            <element signature="e#593#709#0#PHP" />
+            <element signature="n#__construct#0;n#GenCoder#0;n#!!top" />
+            <element signature="e#779#887#0#PHP" />
+            <element signature="e#896#994#0#PHP" />
+            <element signature="e#1072#1145#0#PHP" />
+            <element signature="n#user_hashcode#0;n#GenCoder#0;n#!!top" />
+            <element signature="e#799#853#0#PHP" />
+            <element signature="n#str_splitUTF8#0;n#GenCoder#0;n#!!top" />
+            <element signature="e#1221#1280#0#PHP" />
+            <element signature="n#sender_hashcode#0;n#GenCoder#0;n#!!top" />
+            <element signature="e#1420#1479#0#PHP" />
+            <element signature="n#receiver_hashcode#0;n#GenCoder#0;n#!!top" />
+            <element signature="e#1578#1636#0#PHP" />
+            <element signature="n#randomSalt#0;n#GenCoder#0;n#!!top" />
+            <element signature="e#2110#2186#0#PHP" />
+            <element signature="n#attachKey#0;n#GenCoder#0;n#!!top" />
+            <element signature="e#2314#2427#0#PHP" />
+            <element signature="n#pathKeySignature#0;n#GenCoder#0;n#!!top" />
+            <element signature="e#2144#2202#0#PHP" />
+            <element signature="e#2819#2880#0#PHP" />
+            <element signature="e#3101#4011#0#PHP" />
+            <element signature="e#3291#4011#0#PHP" />
+            <element signature="e#3478#4011#0#PHP" />
+            <element signature="e#3725#4011#0#PHP" />
+            <element signature="e#4583#4641#0#PHP" />
+            <element signature="e#4970#5112#0#PHP" />
+            <element signature="e#4350#4471#0#PHP" />
+            <element signature="e#6270#6407#0#PHP" />
+            <element signature="e#7359#7416#0#PHP" />
+            <element signature="e#7587#7695#0#PHP" />
+            <element signature="e#7735#7793#0#PHP" />
+            <element signature="n#createPass#0;n#GenCoder#0;n#!!top" />
+            <element signature="e#7513#7600#0#PHP" />
           </folding>
         </state>
       </provider>
