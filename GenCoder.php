@@ -177,6 +177,12 @@ Class GenCoder
      * @throws Exception
      */
     private function generateKey(){
+        $key = "";
+        for($x = 0; $x<$this->key_size; $x++){
+            $key.= dechex(random_int(0, 15));
+        }
+        return $key;
+        /*
          if(!function_exists("random_bytes")){
              $bytes = '';
              while (mb_strlen($bytes) < $this->key_size) {
@@ -184,7 +190,7 @@ Class GenCoder
              }
              return $bytes;
          }
-        return random_bytes($this->key_size);
+        return random_bytes($this->key_size);*/
     }
 
     /**
@@ -199,6 +205,7 @@ Class GenCoder
         $attach_key = $this->attachKey($message, $this->salt);
         $path_key_signature = $this->pathKeySignature($sender_hashcode, $receiver_hashcode, $attach_key);
         $result_cypher = $this->cypher($path_key_signature, $message, $generateKey) .  $attach_key;
+        $result_cypher = base64_encode($result_cypher);
         $zipped_string = gzencode($result_cypher, 9);
         return $zipped_string;
     }
@@ -217,11 +224,13 @@ Class GenCoder
         $key_length = mb_strlen($generateKey, "UTF-8");
         for ($i = 0; $i < count($message); $i++) {
             if($sign_key>=self::hash_length) $sign_key = 0;
-            $key_code_pos = hex2bin($path_key_signature[$sign_key]);
+            $key_code_pos = hexdec($path_key_signature[$sign_key]);
             $cur_key_pos = $cur_key_pos+$key_code_pos;
             if($cur_key_pos>=$key_length){
                 $cur_key_pos = $cur_key_pos - $key_length;
             }
+            //echo  $cur_key_pos . " " . $generateKey[$cur_key_pos] , "<br>";
+            //$key_symbol = hex2bin($generateKey[$cur_key_pos]);
             $key_symbol = $generateKey[$cur_key_pos];
             $cyper_message .= $this->mb_chr($this->mb_ord($message{$i}) ^ $this->mb_ord($key_symbol));
             $sign_key++;
@@ -239,6 +248,7 @@ Class GenCoder
      */
     public function decodeMessage($cyper, $generateKey, $user1_hashcode, $user2_pass){
         $cyper = gzdecode($cyper);
+        $cyper = base64_decode($cyper);
         $user2_hashcode = $this->receiver_hashcode($user2_pass);
         $attach_key_test = mb_substr($cyper, mb_strlen($cyper, "UTF-8")-self::hash_length, self::hash_length, "UTF-8");
         $path_key_signature_test = $this->pathKeySignature($user1_hashcode, $user2_hashcode, $attach_key_test);
