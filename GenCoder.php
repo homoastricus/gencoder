@@ -91,7 +91,25 @@ Class GenCoder
         return md5($user_code_1 . $attach_key . $user_code_2);
     }
 
-    /**
+    private function mb_chr($dec) {
+        if(function_exists("mb_chr")){
+            return mb_chr($dec, "UTF-8");
+        } else {
+            if ($dec < 128) {
+                $utf = chr($dec);
+            } else if ($dec < 2048) {
+                $utf = chr(192 + (($dec - ($dec % 64)) / 64));
+                $utf .= chr(128 + ($dec % 64));
+            } else {
+                $utf = chr(224 + (($dec - ($dec % 4096)) / 4096));
+                $utf .= chr(128 + ((($dec % 4096) - ($dec % 64)) / 64));
+                $utf .= chr(128 + ($dec % 64));
+            }
+            return $utf;
+        }
+    }
+
+/**
      * @param $max_size
      * @return string
      */
@@ -142,7 +160,7 @@ Class GenCoder
                 $cur_key_pos = $cur_key_pos - $key_length;
             }
             $key_symbol = $generateKey[$cur_key_pos];
-            $cyper_message .= mb_chr(mb_ord($message{$i}, "UTF-8") ^ mb_ord($key_symbol, "UTF-8"), "UTF-8");
+            $cyper_message .= $this->mb_chr(mb_ord($message{$i}, "UTF-8") ^ mb_ord($key_symbol, "UTF-8"), "UTF-8");
             $sign_key++;
         }
 
