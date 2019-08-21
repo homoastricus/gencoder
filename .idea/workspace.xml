@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/GenCoder.php" line="123" />
+    <bookmark url="file://$PROJECT_DIR$/GenCoder.php" line="163" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b172a84-c7fe-4118-94b3-1ec7c4357c8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GenCoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/GenCoder.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GenCoder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+            <state relative-caret-position="218">
+              <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -48,7 +47,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>gener</find>
       <find>generateRandomNumbers</find>
       <find>$x2</find>
       <find>x2</find>
@@ -78,6 +76,7 @@
       <find>char</find>
       <find>chr</find>
       <find>mb_chr</find>
+      <find>mb_ord</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -175,12 +174,12 @@
       <option name="presentableId" value="Default" />
       <updated>1565952859454</updated>
       <workItem from="1565952860546" duration="3160000" />
-      <workItem from="1566224113378" duration="44230000" />
+      <workItem from="1566224113378" duration="45015000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47390000" />
+    <option name="totallyTimeSpent" value="48175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -327,8 +326,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GenCoder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+        <state relative-caret-position="218">
+          <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
         </state>
       </provider>
     </entry>

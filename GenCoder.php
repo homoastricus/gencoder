@@ -109,6 +109,46 @@ Class GenCoder
         }
     }
 
+    private function mb_ord($char){
+        $encoding = 'UTF-8';
+        if (!function_exists('mb_ord')) {
+                $c = $char;
+                $index = 0;
+                $len = strlen($c);
+                $bytes = 0;
+
+                if ($index >= $len)
+                    return false;
+
+                $h = ord($c{$index});
+
+                if ($h <= 0x7F) {
+                    $bytes = 1;
+                    return $h;
+                }
+                else if ($h < 0xC2)
+                    return false;
+                else if ($h <= 0xDF && $index < $len - 1) {
+                    $bytes = 2;
+                    return ($h & 0x1F) <<  6 | (ord($c{$index + 1}) & 0x3F);
+                }
+                else if ($h <= 0xEF && $index < $len - 2) {
+                    $bytes = 3;
+                    return ($h & 0x0F) << 12 | (ord($c{$index + 1}) & 0x3F) << 6
+                        | (ord($c{$index + 2}) & 0x3F);
+                }
+                else if ($h <= 0xF4 && $index < $len - 3) {
+                    $bytes = 4;
+                    return ($h & 0x0F) << 18 | (ord($c{$index + 1}) & 0x3F) << 12
+                        | (ord($c{$index + 2}) & 0x3F) << 6
+                        | (ord($c{$index + 3}) & 0x3F);
+                }
+                return false;
+        } else {
+            return mb_ord($char, $encoding);
+        }
+    }
+
 /**
      * @param $max_size
      * @return string
@@ -160,7 +200,7 @@ Class GenCoder
                 $cur_key_pos = $cur_key_pos - $key_length;
             }
             $key_symbol = $generateKey[$cur_key_pos];
-            $cyper_message .= $this->mb_chr(mb_ord($message{$i}, "UTF-8") ^ mb_ord($key_symbol, "UTF-8"), "UTF-8");
+            $cyper_message .= $this->mb_chr($this->mb_ord($message{$i}) ^ $this->mb_ord($key_symbol), "UTF-8");
             $sign_key++;
         }
 
