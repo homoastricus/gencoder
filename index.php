@@ -190,7 +190,7 @@ $coded_message = $gen_coder->codeMessage($message, $key, $pass1, $receiver_hashc
         }
 
         .text:nth-child(5n + 3) {
-            stroke: #E9F1DF;
+            stroke: #000000;
             -webkit-animation-delay: -7.2s;
             animation-delay: -7.2s;
         }
@@ -228,7 +228,7 @@ $coded_message = $gen_coder->codeMessage($message, $key, $pass1, $receiver_hashc
             background: #111;
             margin: 0;
             font-family: sans-serif;
-            color: # #c5caaf;
+            color: #c5caaf;
             font-size: 14px;
         }
 
@@ -512,14 +512,11 @@ $plain_message = $gen_coder->decodeMessage($coded_message, $key, $sender_hashcod
     <h2>Как использовать библиотеку:</h2>
     <div class="content">
         1. Cкачать класс GenCoder.php <br>
-        <a class="link" href="https://bitbucket.org/astricus/gencoder"><img src="bitbucket.png" width="20px">Класс GenCoder</a>
+        <a class="link" href="/GenCoder.rar">Класс GenCoder</a>
         <br><br>
 
-        2. Подключить класс GenCoder (например
-        <code>require_once ("GenCoder.php") </code>)
-
         <br><br>
-        3. Полный код использования библиотеки представлен ниже
+        2. Минимально функциональный код использования библиотеки представлен ниже
 
         <pre class="sh_php">
 require_once ("GenCoder.php");
@@ -535,15 +532,9 @@ $sender_hashcode = $gen_coder->sender_hashcode($pass1);
 $receiver_hashcode = $gen_coder->receiver_hashcode($pass2);
 
 $coded_message = $gen_coder->codeMessage($message, $key, $pass1, $receiver_hashcode);
+$plain_text = $gen_coder->decodeMessage($coded_message, $key, $sender_hashcode, $pass2);
 </pre>
-
-
-        <br><br>
-        4. Дешифрование сообщения:
-        <pre class="sh_php"> $gen_coder->decodeMessage($coded_message, $key, $sender_hashcode, $pass2); </pre>
-
-
-    </div>
+</div>
 
 
     <br>

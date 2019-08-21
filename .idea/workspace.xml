@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/GenCoder.php" line="163" />
+    <bookmark url="file://$PROJECT_DIR$/GenCoder.php" line="186" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b172a84-c7fe-4118-94b3-1ec7c4357c8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/GenCoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/GenCoder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +24,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GenCoder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
+            <state relative-caret-position="208">
+              <caret line="111" column="7" lean-forward="true" selection-end-line="275" selection-end-column="1" />
+              <folding>
+                <element signature="e#6#125#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="481" column="195" selection-start-line="481" selection-start-column="195" selection-end-line="481" selection-end-column="195" />
+            <state relative-caret-position="99">
+              <caret line="514" column="32" lean-forward="true" selection-start-line="514" selection-start-column="32" selection-end-line="514" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -47,8 +51,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>generateRandomNumbers</find>
-      <find>$x2</find>
       <find>x2</find>
       <find>x1</find>
       <find>$min_coded_message_length</find>
@@ -72,15 +74,18 @@
       <find>step_element_icon_mini</find>
       <find>flex_item</find>
       <find>log</find>
-      <find>sh_php</find>
       <find>char</find>
       <find>chr</find>
       <find>mb_chr</find>
       <find>mb_ord</find>
+      <find>max_size</find>
+      <find>key_size</find>
+      <find>sh_php</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>&quot;&lt;BR&gt;&quot;</replace>
+      <replace>key_size</replace>
       <replace>$generateKey</replace>
     </replaceStrings>
   </component>
@@ -97,8 +102,8 @@
         <option value="$PROJECT_DIR$/GenCoderOld.php" />
         <option value="$PROJECT_DIR$/randombytes.php" />
         <option value="$PROJECT_DIR$/gindex.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/GenCoder.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -120,11 +125,6 @@
             <path>
               <item name="symcoder" type="b2602c69:ProjectViewProjectNode" />
               <item name="symcoder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="symcoder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="symcoder" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -174,18 +174,18 @@
       <option name="presentableId" value="Default" />
       <updated>1565952859454</updated>
       <workItem from="1565952860546" duration="3160000" />
-      <workItem from="1566224113378" duration="45015000" />
+      <workItem from="1566224113378" duration="47065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48175000" />
+    <option name="totallyTimeSpent" value="50225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -198,7 +198,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18201517" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18201517" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -221,13 +221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="203" column="12" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/csprng/CSPRNG.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -310,13 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="481" column="195" selection-start-line="481" selection-start-column="195" selection-end-line="481" selection-end-column="195" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mbstring/mbstring.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -324,10 +310,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/csprng/CSPRNG.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="514" column="32" lean-forward="true" selection-start-line="514" selection-start-column="32" selection-end-line="514" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GenCoder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
+        <state relative-caret-position="208">
+          <caret line="111" column="7" lean-forward="true" selection-end-line="275" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#125#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

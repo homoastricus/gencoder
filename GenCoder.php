@@ -1,5 +1,7 @@
 <?php
-header('Content-Type: text/html; charset=UTF-8');
+/*
+GENCODER - Open source библиотека симметричного шифрования на PHP от Артур Матарин https://bitbucket.org/astricus
+*/
 
 mb_internal_encoding('UTF-8');
 mb_http_output('UTF-8');
@@ -13,20 +15,33 @@ Class GenCoder
     public $salt;
     public $key;
     private $pass_length = 4;
-    public $max_size;
+    private $key_size;
     private $salt_length = 8;
     const hash_length = 32;
 
+    private $key_size_types = [
+        '64000',
+        '256000',
+        '1000000',
+        '4000000',
+        '16000000',
+    ];
+
     /**
      * GenCoder constructor.
-     * @param $salt
+     * @param $key_size
+     * @param string $salt
+     * @throws Exception
      */
-    public function __construct($salt = "")
+    public function __construct($key_size, $salt = "")
     {
+        if(!in_array($key_size, $this->key_size_types)){
+            $key_size = $this->key_size_types[0];
+        }
         if(mb_strlen($salt)<8){
             $this->salt = $this->randomSalt($this->salt_length);
         }
-        $this->max_size = 64*1000;
+        $this->key_size = $key_size;
         $this->salt = $salt;
     }
 
@@ -91,6 +106,10 @@ Class GenCoder
         return md5($user_code_1 . $attach_key . $user_code_2);
     }
 
+    /**
+     * @param $dec
+     * @return false|string
+     */
     private function mb_chr($dec) {
         if(function_exists("mb_chr")){
             return mb_chr($dec, "UTF-8");
@@ -109,6 +128,10 @@ Class GenCoder
         }
     }
 
+    /**
+     * @param $char
+     * @return bool|false|int
+     */
     private function mb_ord($char){
         $encoding = 'UTF-8';
         if (!function_exists('mb_ord')) {
@@ -149,19 +172,19 @@ Class GenCoder
         }
     }
 
-/**
-     * @param $max_size
+    /**
      * @return string
+     * @throws Exception
      */
-    private function generateKey($max_size){
+    private function generateKey(){
          if(!function_exists("random_bytes")){
              $bytes = '';
-             while (mb_strlen($bytes) < $max_size) {
+             while (mb_strlen($bytes) < $this->key_size) {
                  $bytes .= chr(mt_rand(0, 255));
              }
              return $bytes;
          }
-        return random_bytes($max_size);
+        return random_bytes($this->key_size);
     }
 
     /**
@@ -200,13 +223,20 @@ Class GenCoder
                 $cur_key_pos = $cur_key_pos - $key_length;
             }
             $key_symbol = $generateKey[$cur_key_pos];
-            $cyper_message .= $this->mb_chr($this->mb_ord($message{$i}) ^ $this->mb_ord($key_symbol), "UTF-8");
+            $cyper_message .= $this->mb_chr($this->mb_ord($message{$i}) ^ $this->mb_ord($key_symbol));
             $sign_key++;
         }
 
         return $cyper_message;
     }
 
+    /**
+     * @param $cyper
+     * @param $generateKey
+     * @param $user1_hashcode
+     * @param $user2_pass
+     * @return string
+     */
     public function decodeMessage($cyper, $generateKey, $user1_hashcode, $user2_pass){
         $cyper = gzdecode($cyper);
         $user2_hashcode = $this->receiver_hashcode($user2_pass);
@@ -216,8 +246,12 @@ Class GenCoder
         return $this->cypher($path_key_signature_test, $trimmed_cyper, $generateKey);
     }
 
+    /**
+     * @return array
+     * @throws Exception
+     */
     public function init(){
-        $generateKey = $this->generateKey($this->max_size);
+        $generateKey = $this->generateKey();
         $pass1 = $this->createPass();
         $pass2 = $this->createPass();
         $init_data = [
@@ -228,6 +262,10 @@ Class GenCoder
         return $init_data;
     }
 
+    /**
+     * @return string
+     * @throws Exception
+     */
     public function createPass(){
         $pass = "";
         for($t=0; $t<$this->pass_length; $t++){
