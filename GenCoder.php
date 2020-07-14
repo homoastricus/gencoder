@@ -11,9 +11,7 @@ mb_internal_encoding("UTF-8");
 
 class GenCoder
 {
-    public $message;
     public $salt;
-    public $key;
     private $pass_length = 4;
     private $key_size;
     private $salt_length = 8;
@@ -263,12 +261,11 @@ class GenCoder
         $generateKey = $this->generateKey();
         $pass1 = $this->createPass();
         $pass2 = $this->createPass();
-        $init_data = [
+        return [
             'key' => $generateKey,
             'pass1' => $pass1,
             'pass2' => $pass2,
         ];
-        return $init_data;
     }
 
     /**
