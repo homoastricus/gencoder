@@ -10,7 +10,8 @@ What is it and for what?
    - **Free for using**
 
 
-###sandbox for testing [gencoder.ru](http://gencoder.ru/)
+###sandbox for testing 
+[gencoder.ru](http://gencoder.ru/)
 
 ####How it works:
 1. Connection of the GenCoder library
