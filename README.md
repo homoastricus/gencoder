@@ -1,12 +1,13 @@
-What is it and for what?
+GenCoder is an open source php symmetric cipher library 
 
+What is it and for what?
 
 - **GenCoder library provides the ability to reversibly encrypt any information for your application needs**
 - **A cryptographically strong encryption algorithm is used (a variation of the Vernam cipher, a random encoding sequence as the source key)**
  - **The encryption algorithm is further enhanced by randomizing the key for each unique message**
   - **The library uses a data compression mechanism to optimize the transfer and storage of encrypted information**
    - **The library is simple, contains an open algorithm and is easy to use.**
-   - **Free**
+   - **Free for using**
 
 
 ###sandbox for testing [gencoder.ru](http://gencoder.ru/)
