@@ -51,7 +51,6 @@ Class GenCoder
      * @return string
      */
     private function user_hashcode($pass, $salt){
-
         return md5($pass . $salt);
     }
 
@@ -93,7 +92,7 @@ Class GenCoder
      * @return string
      */
     private function attachKey($message, $salt){
-        return md5($message . md5($salt) . md5($message . $salt));
+        return md5(hash('sha512', $message . time() . $salt) . hash('sha512', $salt));
     }
 
     /**
@@ -103,7 +102,7 @@ Class GenCoder
      * @return string
      */
     private function pathKeySignature($user_code_1, $user_code_2, $attach_key){
-        return md5($user_code_1 . $attach_key . $user_code_2);
+        return hash('sha512', $user_code_1 . $attach_key . $user_code_2);
     }
 
     /**
