@@ -183,7 +183,7 @@ class GenCoder
     private function generateKey()
     {
         $key = "";
-        $k_count = count($this->key_symbols);
+        $k_count = count($this->key_symbols)-1;
         for ($x = 0; $x < $this->key_size; $x++) {
             $key .= $this->key_symbols[mt_rand(0, $k_count)];
         }
