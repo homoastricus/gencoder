@@ -512,7 +512,7 @@ $plain_message = $gen_coder->decodeMessage($coded_message, $key, $sender_hashcod
     <h2>Как использовать библиотеку:</h2>
     <div class="content">
         1. Cкачать класс GenCoder.php <br>
-        <a class="link" href="/GenCoder.rar">Класс GenCoder</a>
+        <a class="link" href="/GenCoder.zip">Класс GenCoder</a>
         <br><br>
 
         <br><br>
