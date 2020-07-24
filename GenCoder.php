@@ -1,4 +1,5 @@
 <?php
+namespace GenC;
 /*
 GENCODER - Open source библиотека симметричного шифрования на PHP от Артур Матарин https://bitbucket.org/astricus
 */
