@@ -13,8 +13,6 @@
     
   },
   "autoload": {
-    "psr-4": {
-      "GenC\\": "/"
-    }
-  }
+     "files": ["GenCoder.php"]
+  },
 }
